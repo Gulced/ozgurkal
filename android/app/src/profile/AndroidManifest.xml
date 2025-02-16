@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ozgurkal1">
+
+    <!-- The INTERNET permission is required for Firebase and other services -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Permission to check network state for Firebase operations -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Permission for external storage access (if Firebase Storage is used) -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- Firebase Cloud Messaging Permission (for Push Notifications) -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="ozgurkal1"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Firebase services meta-data -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/notification_color"/>
+
+        <!-- Other components of your app here -->
+
+    </application>
+</manifest>

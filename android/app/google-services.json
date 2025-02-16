@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944146882511",
+    "project_id": "ozgurkal-712ee",
+    "storage_bucket": "ozgurkal-712ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944146882511:android:5fcb8a4add559b9ad8bcba",
+        "android_client_info": {
+          "package_name": "com.example.ozgurkal1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNM8J1dGDXujIukenGxaCxbG9ZFKZlEo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
